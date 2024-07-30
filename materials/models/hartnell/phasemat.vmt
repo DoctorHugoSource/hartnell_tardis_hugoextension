@@ -1,0 +1,17 @@
+"Refract"
+{
+ 	"$model" 1
+
+ 	"$refractamount" "0.5"
+ 	"$bluramount" "1"
+	"$refracttint" "{150 150 150}"
+ 	"$normalmap" "models/monk/flat_bump"
+ 	"$dudvmap" "models/monk/flat_bump"
+	"$bumpframe" "1"
+
+	$nocull 0
+
+	$fadeoutonsilhouette 0
+
+	"$additive" "1"
+}

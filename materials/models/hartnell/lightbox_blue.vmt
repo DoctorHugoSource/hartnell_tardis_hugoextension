@@ -1,0 +1,41 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/hartnell/lightbox_blue"
+	"$translucent" 1
+	$bumpmap  "models/monk/flat_bump"
+	$nodecal 1	
+	$diffuseexp 1
+	$nocull 0
+	$phong 1
+	$phongalbedotint 1
+	$phongalbedoboost 36
+	$phongexponent 3
+	$phongexponenttexture "models/hartnell/lightbox_blue"
+	$phongboost 0.5
+	$phongfresnelranges "[0.05 0.5 1]"
+	"$halflambert"				"1"
+	"$rimlight"					"1"
+	"$rimlightexponent"			"100"
+	"$rimlightboost"			".5"
+	"$rimmask"					"1"
+	
+	"$surfaceprop" "glass"
+	"$envmap" "models/monk/envhartnell"
+	"$envmaptint" "[ 0.03 0.015 0.01 ]"
+	"$envmapfresnel" "0.75"
+
+	"$detail"				"detail/metal_detail_01"
+	"$detailscale"			"8"
+	"$detailblendfactor"	"0.15"
+	"$detailblendmode"		"0"
+
+	$phong 							1
+	$phongexponent 						66
+	$phongboost 						0.025
+	$phongtint 						"[ 25 25 25 ]"
+	$phongfresnelranges 					"[0.5 0.5 1]"
+
+	$rimlight 							"1"
+	$rimlightexponent 						"25"
+	$rimlightboost 						"2"
+}

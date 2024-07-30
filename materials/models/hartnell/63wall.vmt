@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/hartnell/63wall"
+	"$bumpmap" "models/monk/flat_bump"
+	"$surfaceprop" "Wood"
+
+	$nodecal 1	
+	$diffuseexp 1
+	$nocull 0
+	$phong 1
+	$phongalbedotint 1
+	$phongalbedoboost 36
+	$phongexponent 3
+	$phongexponenttexture "models/hartnell/smoothmetal_diffuse"
+	$phongboost 1
+	$phongfresnelranges "[0.05 0.5 1]"
+	"$halflambert"				"1"
+	"$rimlight"					"1"
+	"$rimlightexponent"			"100"
+	"$rimlightboost"			".5"
+	"$rimmask"					"1"
+}

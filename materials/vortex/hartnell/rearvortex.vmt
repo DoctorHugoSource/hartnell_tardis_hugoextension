@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "vortex/hartnell/rearvortex"
+	"$surfaceprop" "water"
+	"$selfillum" 1
+	"$selfillummask" "vortex/hartnell/rearvortex"
+	"$nodecal" "1"
+		"Proxies"
+		{
+			"AnimatedTexture"
+				{
+					"animatedTextureVar" "$basetexture"
+					"animatedTextureFrameNumVar" "$frame"
+					"animatedTextureFrameRate" "25"
+				}
+		}
+}
+

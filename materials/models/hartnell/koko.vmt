@@ -1,0 +1,47 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/hartnell/koko"
+	$bumpmap  "models/monk/flat_bump"
+//	$envmap "env_cubemap"
+	$envmaptint "[.015 .015 .015]"
+	$diffuseexp 1
+	$halflambert 1
+	$nocull 0
+
+	"$detail"				"detail/metal_detail_01"
+	"$detailscale"			"8"
+	"$detailblendfactor"	"0.15"
+	"$detailblendmode"		"0"
+
+	$phong 							1
+	$phongexponent 						66
+	$phongboost 						0.3
+	$phongtint 						"[ 25 25 25 ]"
+	$phongfresnelranges 					"[0.5 0.5 1]"
+
+	$rimlight 							"1"
+	$rimlightexponent 						"25"
+	$rimlightboost 						"2"
+
+	"$selfillum" "1"
+	"$selfillummask" "models/hartnell/koko"
+
+	$selfillum_on "[1 1 1]"
+	$selfillum_off "[0 0 0]"
+	$color2_on "[1 1 1]"
+	$color2_off "[0 0 0]"
+
+	Proxies
+		{
+			TARDIS_Power {
+				onVar "$selfillum_on"
+				offVar "$selfillum_off"
+				resultVar "$selfillumtint"
+				}
+			TARDIS_Power2 {
+				onVar "$color2_on"
+				offVar "$color2_off"
+				resultVar "$color2"
+				}
+		}
+}

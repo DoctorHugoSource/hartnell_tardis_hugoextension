@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/hartnell/policeboxsign"
+	"$bumpmap" "models/hartnell/policeboxsign_bump"
+	"$nodecal" "1"
+	"$surfaceprop" "Concrete"
+
+//	"$basemapalphaphongmask" "1"
+
+	$phong 							1
+	$phongexponent 						66
+	$phongboost 						0.3
+//	$phongtint 						"[ 25 25 25 ]"
+	$phongfresnelranges 					"[0.5 0.5 1]"
+
+//	$rimlight 							"1"
+	$rimlightexponent 						"25"
+	$rimlightboost 						"2"
+}
+
