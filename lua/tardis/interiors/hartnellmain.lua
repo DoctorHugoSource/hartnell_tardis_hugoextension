@@ -896,6 +896,8 @@ T.Interior={
         newhartnellswitch14             = "vortexdrift",
         newhartnellswitch11             = "multiloopstabiliser",
 		newhartnellmetallever3		    = "fastvortexremat",
+		newhartnellswitch12		    	= "timeswap",
+		newhartnellminiswitch5			= "timetravel_increment",
 	},
 
 	PartTips={
@@ -948,7 +950,8 @@ T.Interior={
 		newhartnelltinydial3            = {pos = Vector(28.61,19.63,44.59),    		right = true,     down = false, },
 		newhartnellmetallever3			= {pos = Vector(14.24,30.41,45.91),    		right = true,     down = false, },
 		newhartnellswitch1				= {pos = Vector(0.02,-22.76,48.47),  		text = "Exterior Appearance Reconfiguration", right = true,     down = false, },
-
+		newhartnellswitch12				= {pos = Vector(-22.04,-18.62,47.19),    	right = true,     down = false, },
+		newhartnellminiswitch5			= {pos = Vector(33.37,10.49,44.52),    		right = true,     down = false, },
 
 
 
